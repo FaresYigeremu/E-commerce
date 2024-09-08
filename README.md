@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-https://clone-a1514.web.app/ is the deployed app
+https://e-commerce-483ac.web.app/ is the deployed app

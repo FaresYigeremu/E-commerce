@@ -3,17 +3,20 @@ module.exports = {
     es6: true,
     node: true,
   },
-  parserOptions: {
-    "ecmaVersion": 2018,
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
-  extends: [
-    "eslint:recommended",
-    "google",
-  ],
+  extends: ["eslint:recommended", "plugin:react/recommended"],
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module",
+  },
   rules: {
     "no-restricted-globals": ["error", "name", "length"],
     "prefer-arrow-callback": "error",
-    "quotes": ["error", "double", {"allowTemplateLiterals": true}],
+    quotes: ["error", "double", { allowTemplateLiterals: true }],
   },
   overrides: [
     {
@@ -24,5 +27,6 @@ module.exports = {
       rules: {},
     },
   ],
+  plugins: ["react"],
   globals: {},
 };
