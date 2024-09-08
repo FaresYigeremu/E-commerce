@@ -11,6 +11,8 @@ const firebaseConfig = {
   appId: "1:254262283295:web:49fe709c79cdf21bf0592a",
   measurementId: "G-3E105XZ1Y4",
 };
+// I know there is a possible leaks but I am planning on finding a secure way
+// for the time being these keys are exposed and vulnerable
 
 const firebaseApp = initializeApp(firebaseConfig);
 
