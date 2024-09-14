@@ -1,16 +1,19 @@
+{/* eslint-disable */}
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import hero from "./Hero.jpg";
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img
-          className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
-
+        <div className="home__hero">
+          <img src={hero} alt="Cover Image" style={{width: '100%', height: '500px', objectFit: 'cover'}} />
+          <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>
+            <h1 style={{fontSize: '6rem', fontWeight: 'bold', color: 'white'}}>E-commerce</h1>
+            <p style={{fontSize: '2rem', color: 'white', textAlign: 'center'}}>Seamless shopping, delivered</p>
+          </div>
+        </div>
         <div className="home__row">
           <Product
             id="12321341"
