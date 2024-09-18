@@ -4,7 +4,7 @@
 
 **E-commerce** is a modern, responsive e-commerce website designed to provide users with a seamless shopping experience. Built with scalability and user-friendliness in mind, our platform offers a wide range of products, intuitive navigation, and robust features to enhance customer engagement and conversion rates.
 
-[Link to deployed site](https://e-commerce-483ac.firebaseapp.com)
+[Link to deployed site](https://e-commerce-483ac.firebaseapp.com)<br>
 [My LinkedIn profile](https://www.linkedin.com/in/faresyigeremu)
 
 ## Project Purpose
